@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="@null"
+        android:id="@+id/appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Tap to Book \n your Appointment"
+        android:textAlignment="center"
+        android:textColor="#2E8022"
+        android:textSize="16sp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/arrow1"/>
+
+    <ImageView
+        android:background="@null"
+        android:id="@+id/arrow1"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:src="@drawable/arrow1_removebg"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:background="@null"
+        android:id="@+id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Tap to see \n new notifications"
+        android:textAlignment="center"
+        android:textColor="#2E8022"
+        android:textSize="16sp"
+        android:layout_below="@+id/arrow2"
+        android:layout_marginLeft="200dp"/>
+
+    <ImageView
+        android:background="@null"
+        android:id="@+id/arrow2"
+        android:layout_width="124dp"
+        android:layout_height="85dp"
+        android:src="@drawable/arrow2_removebg"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="220dp"/>
+
+    <TextView
+        android:background="@null"
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow3"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-9dp"
+        android:fontFamily="serif"
+        android:text="Tap to add \n a patient"
+        android:textAlignment="center"
+        android:textColor="#2E8022"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:background="@null"
+        android:id="@+id/arrow3"
+        android:layout_width="124dp"
+        android:layout_height="145dp"
+        android:src="@drawable/arrow3_removebg"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="315dp"/>
+
+    <TextView
+        android:background="@null"
+        android:id="@+id/queue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Queue"
+        android:textColor="#2E8022"
+        android:textSize="32sp"
+        android:textStyle="normal|bold"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
