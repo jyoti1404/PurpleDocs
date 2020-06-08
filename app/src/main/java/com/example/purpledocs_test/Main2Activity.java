@@ -44,7 +44,7 @@ public class Main2Activity extends AppCompatActivity {
 //            AnimationDrawable frameAnimation = (AnimationDrawable) arrow1.getBackground();
 //            // Start the animation (looped playback by default).
 //            frameAnimation.start();
-
+//
             TextView add = dialog.findViewById(R.id.add);
             add.setText("Tap to add \n a patient");
             TextView queue = dialog.findViewById(R.id.queue);
